@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  YellowViewController.swift
 //  MAPD714-F2018-Lesson5
 //
 //  Created by Thayllan Anacleto on 2018-10-04.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class YellowViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
-
 }
-

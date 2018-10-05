@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9DFC37D12166D21800AAC95E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC37D02166D21800AAC95E /* AppDelegate.swift */; };
-		9DFC37D32166D21800AAC95E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC37D22166D21800AAC95E /* ViewController.swift */; };
 		9DFC37D62166D21800AAC95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC37D42166D21800AAC95E /* Main.storyboard */; };
 		9DFC37D82166D21900AAC95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC37D72166D21900AAC95E /* Assets.xcassets */; };
 		9DFC37DB2166D21900AAC95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC37D92166D21900AAC95E /* LaunchScreen.storyboard */; };
+		9DFC37E32166D59500AAC95E /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC37E22166D59500AAC95E /* SwitchingViewController.swift */; };
+		9DFC37E52166D9A000AAC95E /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC37E42166D9A000AAC95E /* BlueViewController.swift */; };
+		9DFC37E72166D9B000AAC95E /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC37E62166D9B000AAC95E /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DFC37CD2166D21800AAC95E /* MAPD714-F2018-Lesson5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-F2018-Lesson5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFC37D02166D21800AAC95E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DFC37D22166D21800AAC95E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DFC37D52166D21800AAC95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DFC37D72166D21900AAC95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DFC37DA2166D21900AAC95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DFC37DC2166D21900AAC95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DFC37E22166D59500AAC95E /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		9DFC37E42166D9A000AAC95E /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		9DFC37E62166D9B000AAC95E /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				9DFC37D02166D21800AAC95E /* AppDelegate.swift */,
-				9DFC37D22166D21800AAC95E /* ViewController.swift */,
+				9DFC37E22166D59500AAC95E /* SwitchingViewController.swift */,
+				9DFC37E42166D9A000AAC95E /* BlueViewController.swift */,
+				9DFC37E62166D9B000AAC95E /* YellowViewController.swift */,
 				9DFC37D42166D21800AAC95E /* Main.storyboard */,
 				9DFC37D72166D21900AAC95E /* Assets.xcassets */,
 				9DFC37D92166D21900AAC95E /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DFC37D32166D21800AAC95E /* ViewController.swift in Sources */,
+				9DFC37E72166D9B000AAC95E /* YellowViewController.swift in Sources */,
 				9DFC37D12166D21800AAC95E /* AppDelegate.swift in Sources */,
+				9DFC37E52166D9A000AAC95E /* BlueViewController.swift in Sources */,
+				9DFC37E32166D59500AAC95E /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = "MAPD714-F2018-Lesson5/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = "MAPD714-F2018-Lesson5/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
